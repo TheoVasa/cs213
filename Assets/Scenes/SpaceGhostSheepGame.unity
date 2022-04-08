@@ -1193,7 +1193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7109e9d7b5c75ae4fab23933c5316ebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerType: 1
+  playerType: 0
 --- !u!1001 &1010268855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1398,9 +1398,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
-  RunThreshold: 0
-  ChaseThreshold: 0
-  switchTime: 10
+  R: 0
+  G: 0
+  B: 0
+  RunDistanceThreshold: 18
+  maxSwitchTime: 30
 --- !u!114 &1164028993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1413,7 +1415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7109e9d7b5c75ae4fab23933c5316ebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerType: 1
+  playerType: 2
 --- !u!1 &1208896029
 GameObject:
   m_ObjectHideFlags: 0

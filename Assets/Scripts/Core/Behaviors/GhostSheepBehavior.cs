@@ -4,19 +4,22 @@ using UnityEngine;
 public class GhostSheepBehavior : AgentBehaviour
 {
     //distance at which the sheep will begin to run 
-    public float RunThreshold;
-    public float ChaseThreshold;
-    public float switchTime; 
+    public float R;
+    public float G;
+    public float B;
+    public float RunDistanceThreshold;
+    public int maxSwitchTime; 
     private Vector3 m_movement;
     private Vector3 attractForce; 
     private Vector3 repForce; 
 
     public void Start(){
+        //invoke randomly the switching of states 
+        Invoke("switchState", Random.Range(0, maxSwitchTime));
     }
     public override Steering GetSteering()
     {
-        //invoke all switchTime a random switch of state
-        Invoke("RandomSwitchState", switchTime);
+        //scan the game environnement 
         scanEnnemies();
         //update the movement in function of the state
         if (tag == "sheep")
@@ -47,41 +50,42 @@ public class GhostSheepBehavior : AgentBehaviour
         foreach (GameObject go in gos)
         {
             Vector3 diff = go.transform.position - position;
-            repForce += diff; 
             float curDistance = diff.sqrMagnitude;
+            repForce = repForce - diff / curDistance;
+
             if (curDistance < distance)
             {
                 closest = go;
                 distance = curDistance;
             }
         }
-        repForce = -repForce.normalized;
+        //add a minimum distance 
+        if(distance >= RunDistanceThreshold)
+        {
+            repForce = Vector3.zero;
+        } else
+        {
+            repForce = repForce.normalized; 
+        }
         attractForce = closest.transform.position - position; 
+        if(attractForce.sqrMagnitude > 1) attractForce = attractForce.normalized;
     }
 
     //one chance over 2 to switch
-    private void RandomSwitchState()
+    private void switchState()
     {
-        bool hasSwitched = Random.Range(-1.0f, 1.0f) > 0;
-        if (hasSwitched)
+        print("switch");
+        if(tag == "sheep")
         {
-            if(tag == "sheep")
-            {
-                tag = "ghost";
-                //change led make noise
-            }
-            if(tag == "ghost")
-            {
-                //change led make noise
-                tag = "sheep";
-            }
-            
+           transform.gameObject.tag = "ghost";
+           //change led make noise
         }
+        else if(tag == "ghost")
+        {
+           transform.gameObject.tag = "sheep";
+           //change led make noise
+
+        }
+        Invoke("switchState", Random.Range(0, maxSwitchTime));
     }
-
-
-    
-
-
-
 }

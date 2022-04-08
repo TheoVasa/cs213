@@ -14,7 +14,7 @@ public class GameTag : MonoBehaviour
     private string thisTag;
    
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         if (playerType == playerType.dog)
         {
@@ -31,6 +31,4 @@ public class GameTag : MonoBehaviour
         }
         gameObject.tag = thisTag; 
     }
- 
-
 }
