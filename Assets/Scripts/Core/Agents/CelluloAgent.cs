@@ -342,4 +342,9 @@ public class CelluloAgent : SteeringAgent
             _celluloRobot.VibrateOnMotion(0, 40);
         }
     }
+
+    public Color Color()
+    {
+        return initialColor;
+    }
 }

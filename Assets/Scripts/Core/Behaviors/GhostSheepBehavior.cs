@@ -4,19 +4,31 @@ using UnityEngine;
 public class GhostSheepBehavior : AgentBehaviour
 {
     //distance at which the sheep will begin to run 
-    public float R;
-    public float G;
-    public float B;
-    public Cellulo robot; 
+
     public float RunDistanceThreshold;
-    public int maxSwitchTime; 
+    public float ChaseDistanceAfterCollideThreshold;
+    public int maxSwitchTime;
+    public Color GhostColor;
+    public AudioClip sheepClip;
+    public AudioClip ghostClip;
+    private Color SheepColor;
     private Vector3 m_movement;
-    private Vector3 attractForce; 
-    private Vector3 repForce; 
+    private Vector3 attractForce;
+    private Vector3 repForce;
+    private AudioSource sheepSound;
+    private AudioSource ghostSound;
+    private bool hasCollided = false; 
+
 
     public void Start(){
         //invoke randomly the switching of states 
         Invoke("switchState", Random.Range(0, maxSwitchTime));
+        SheepColor = agent.Color();
+        //creating the sounds 
+        sheepSound = gameObject.AddComponent<AudioSource>();
+        sheepSound.clip = sheepClip;
+        ghostSound = gameObject.AddComponent<AudioSource>();
+        ghostSound.clip = ghostClip;
     }
     public override Steering GetSteering()
     {
@@ -68,27 +80,47 @@ public class GhostSheepBehavior : AgentBehaviour
         {
             repForce = repForce.normalized; 
         }
-        attractForce = closest.transform.position - position; 
-        if(attractForce.sqrMagnitude > 1) attractForce = attractForce.normalized;
+
+        if(hasCollided && distance < ChaseDistanceAfterCollideThreshold)
+        {
+            attractForce = Vector3.zero;
+        } else
+        {
+            hasCollided = false;
+            attractForce = closest.transform.position - position;
+
+        }
     }
 
     //one chance over 2 to switch
     private void switchState()
     {
-        print("switch");
         if(tag == "sheep")
         {
            transform.gameObject.tag = "ghost";
             //change led make noise
-            //robot.SetVisualEffect(VisualEffect.VisualEffectConstAll.value, (long)255, (long)0, (long)0, colorValue);
-         }
+            agent.SetVisualEffect(0, GhostColor, 0);
+            ghostSound.Play();
+
+        }
         else if(tag == "ghost")
         {
            transform.gameObject.tag = "sheep";
             //change led make noise
-           // robot.SetVisualEffect(VisualEffect.VisualEffectConstAll.value, (long)0, (long)255, (long)0, colorValue);
+            agent.SetVisualEffect(0, SheepColor, 0);
+            sheepSound.Play();
 
         }
         Invoke("switchState", Random.Range(0, maxSwitchTime));
     }
+
+    public void OnCollisionEnter(Collision other)
+    {
+        if(other.gameObject.tag == "dog" && tag == "ghost")
+        {
+            other.gameObject.GetComponent<PointSystem>().DecreasePoints();
+            hasCollided = true; 
+        }
+    }
+
 }
