@@ -5,6 +5,7 @@ public class AgentBehaviour : MonoBehaviour
     public float weight = 1.0f;
     protected CelluloAgent agent;
 
+
     public virtual void Awake()
     {
         agent = gameObject.GetComponent<CelluloAgent>();

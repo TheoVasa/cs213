@@ -13,8 +13,23 @@ public class MoveWithKeyboardBehavior : AgentBehaviour
 
     public override Steering GetSteering()
     {
+        float vertical;
+        float horizontal;
+        if(inputKeyboard == InputKeyboard.arrows)
+        {
+            vertical = Input.GetAxis("VerArrow");
+            horizontal = Input.GetAxis("HorArrow");
+        } else
+        {
+            vertical = Input.GetAxis("VerButt");
+            horizontal = Input.GetAxis("HorButt");
+        }
+
         Steering steering = new Steering();
-        //implement your code here
+        //moving the cellulo 
+        steering.linear = new Vector3(horizontal, 0, vertical) * agent.maxAccel;
+        steering.linear = this.transform.parent.TransformDirection(Vector3.ClampMagnitude(steering.
+        linear, agent.maxAccel));
         return steering;
     }
 
