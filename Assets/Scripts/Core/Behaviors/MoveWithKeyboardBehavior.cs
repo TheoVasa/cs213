@@ -17,8 +17,8 @@ public class MoveWithKeyboardBehavior : AgentBehaviour
         float horizontal;
         if(inputKeyboard == InputKeyboard.arrows)
         {
-            vertical = Input.GetAxis("VerArrow");
-            horizontal = Input.GetAxis("HorArrow");
+            vertical = Input.GetAxis("Vertical");
+            horizontal = Input.GetAxis("Horizontal");
         } else
         {
             vertical = Input.GetAxis("VerButt");

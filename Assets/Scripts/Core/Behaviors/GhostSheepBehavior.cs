@@ -7,6 +7,7 @@ public class GhostSheepBehavior : AgentBehaviour
     public float R;
     public float G;
     public float B;
+    public Cellulo robot; 
     public float RunDistanceThreshold;
     public int maxSwitchTime; 
     private Vector3 m_movement;
@@ -78,12 +79,14 @@ public class GhostSheepBehavior : AgentBehaviour
         if(tag == "sheep")
         {
            transform.gameObject.tag = "ghost";
-           //change led make noise
-        }
+            //change led make noise
+            //robot.SetVisualEffect(VisualEffect.VisualEffectConstAll.value, (long)255, (long)0, (long)0, colorValue);
+         }
         else if(tag == "ghost")
         {
            transform.gameObject.tag = "sheep";
-           //change led make noise
+            //change led make noise
+           // robot.SetVisualEffect(VisualEffect.VisualEffectConstAll.value, (long)0, (long)255, (long)0, colorValue);
 
         }
         Invoke("switchState", Random.Range(0, maxSwitchTime));
