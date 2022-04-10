@@ -33,6 +33,4 @@ public class PointSystem : MonoBehaviour
     {
         return points;
     }
-
-
 }
