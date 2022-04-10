@@ -18,7 +18,6 @@ public class RingTrigger : MonoBehaviour
      void OnTriggerEnter(Collider other){
         if(other.transform.parent.gameObject.tag == "sheep")
         {
-            Debug.Log(other.transform.parent.gameObject.name + " triggers.");
             GameObject dog = FindClosestEnemy();
             dog.GetComponent<PointSystem>().IncreasePoints();
         }
