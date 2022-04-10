@@ -1,0 +1,965 @@
+Unity Editor version:    2020.3.30f1 (1fb1bf06830e)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #121-Ubuntu SMP Thu Mar 24 16:04:27 UTC 2022
+Kernel version:          5.4.0-107-generic
+Architecture:            x86_64
+Available memory:        15767 MB
+Using pre-set license
+Pro License: NO
+Desktop is 1920 x 1080 @ 60 Hz
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/media/selien/Windows/Moi/EPFL/BA4/Interaction Humain System/Project/cs213
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+33711
+Successfully changed project path to: /media/selien/Windows/Moi/EPFL/BA4/Interaction Humain System/Project/cs213
+/media/selien/Windows/Moi/EPFL/BA4/Interaction Humain System/Project/cs213
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 184.65 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 33.50 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path /home/selien/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /media/selien/Windows/Moi/EPFL/BA4/Interaction Humain System/Project/cs213/Assets
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 21.2.6
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
+t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_t
+exture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 923716720
+Initialize mono
+Mono path[0] = '/home/selien/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = '/home/selien/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/home/selien/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56099
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/selien/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.001667 seconds.
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 47.13 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.70 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Domain Reload Profiling:
+	ReloadAssembly (773ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (609ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.102351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.94 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.150 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2155ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1854ms)
+			LoadAssemblies (221ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1043ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (649ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 1.00 ms.
+Unloading 1581 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2026.
+Total: 5.824574 ms (FindLiveObjects: 0.206090 ms CreateObjectMapping: 0.096506 ms MarkObjects: 5.330793 ms  DeleteObjects: 0.190018 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Editor
+  artifactKey: Guid(4e542bdeed8fe08dcb77dc41bcb9de2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor using Guid(4e542bdeed8fe08dcb77dc41bcb9de2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ccac0713caad7d6d7846663e513f8e') in 0.012626 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.098534 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.88 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.439 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1440ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1172ms)
+			LoadAssemblies (199ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.93 ms.
+Unloading 1555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2028.
+Total: 6.767239 ms (FindLiveObjects: 0.199008 ms CreateObjectMapping: 0.062306 ms MarkObjects: 6.391908 ms  DeleteObjects: 0.111580 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.146404 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.85 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.293 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1294ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1058ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.80 ms.
+Unloading 1555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 5.130475 ms (FindLiveObjects: 0.162193 ms CreateObjectMapping: 0.051345 ms MarkObjects: 4.839917 ms  DeleteObjects: 0.075773 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.090515 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.71 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.298 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1298ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1070ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (395ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.65 ms.
+Unloading 1555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.8 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2032.
+Total: 5.128331 ms (FindLiveObjects: 0.186632 ms CreateObjectMapping: 0.065961 ms MarkObjects: 4.791228 ms  DeleteObjects: 0.083437 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 782.150481 seconds.
+  path: Assets/Scripts/Menu/Settings.cs
+  artifactKey: Guid(d6ba23457d38b20f6b2cdb0a11e0b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu/Settings.cs using Guid(d6ba23457d38b20f6b2cdb0a11e0b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14c81064da81ae32049521acf14473e') in 0.020631 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.196981 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 1.51 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.247 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2248ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1890ms)
+			LoadAssemblies (299ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (528ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (675ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (466ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 1.11 ms.
+Unloading 1555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.8 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2034.
+Total: 8.711351 ms (FindLiveObjects: 0.227360 ms CreateObjectMapping: 0.092355 ms MarkObjects: 8.233290 ms  DeleteObjects: 0.155971 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42.399025 seconds.
+  path: Assets/Scripts/Menu/Settings.cs
+  artifactKey: Guid(d6ba23457d38b20f6b2cdb0a11e0b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu/Settings.cs using Guid(d6ba23457d38b20f6b2cdb0a11e0b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a90511b09d91c0ba8c5073762b64f50') in 0.020530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.445250 seconds.
+  path: Assets/Scripts/Game/GameOverWinner.cs
+  artifactKey: Guid(3f4c4cf5844b770908b4705ea7257b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/GameOverWinner.cs using Guid(3f4c4cf5844b770908b4705ea7257b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d70082ad0798a8763c3b5478b81bb70') in 0.026096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.921295 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c860dfdf0522eec1202f36843e52d436') in 0.017652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.550100 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f449bd9ed4a92e06d659da724da745') in 0.046126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.690583 seconds.
+  path: Packages/com.unity.ide.rider/package.json
+  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff96f7b61e94a0dc9b975679be81ead9') in 0.022389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.566121 seconds.
+  path: Packages/com.unity.services.core/package.json
+  artifactKey: Guid(182c5bcc97fc21747a9ca5e01da1ed3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.core/package.json using Guid(182c5bcc97fc21747a9ca5e01da1ed3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b8084c496b82982a982aa19ee0d890') in 0.022902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.657519 seconds.
+  path: Packages/com.unity.test-framework/package.json
+  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348d0090788821c173ed5a91192d97b9') in 0.024842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.953353 seconds.
+  path: Packages/com.unity.collab-proxy/package.json
+  artifactKey: Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/package.json using Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c4c53be7d976228c857c13cbca6546') in 0.027872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.539909 seconds.
+  path: Packages/com.unity.ide.visualstudio/package.json
+  artifactKey: Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/package.json using Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6951334b1ecd919472e8e5213f85f149') in 0.027101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.704457 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd6dcea75119183330fd0c84a35eed7') in 0.018060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.796659 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb160d1f2f0150837d5eca199ae2098') in 0.018027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053636 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99846f5a5cef2b9fb3476a6a84d35918') in 0.025721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 139.471434 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093a2cdfc4701742cd4e2e9653a3929b') in 0.040513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.953091 seconds.
+  path: Assets/Art/Particlecollection_Free samples
+  artifactKey: Guid(193fcc08c9b340248a6cf3c6eb67eb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Particlecollection_Free samples using Guid(193fcc08c9b340248a6cf3c6eb67eb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82791ed7b02bca74b3c5d853b90f0701') in 0.018512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.753788 seconds.
+  path: Assets/Art/Modular Pixel Forest
+  artifactKey: Guid(1a82eaeebcc5d2644bc1d2d0fbd7a4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest using Guid(1a82eaeebcc5d2644bc1d2d0fbd7a4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4340db5359f219bdd3c05dadf5ae176') in 0.017281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.331258 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials
+  artifactKey: Guid(15e76412d52eb3044aeaf21ba340a251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials using Guid(15e76412d52eb3044aeaf21ba340a251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0e2537d993f7ec7cf046a4ede5f754') in 0.017004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.179124 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures
+  artifactKey: Guid(0c29936a802988a40bc6ed65fa02e5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures using Guid(0c29936a802988a40bc6ed65fa02e5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7d499c92543bf698d03a90d5760f24') in 0.017283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045017 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/boulder snow.png
+  artifactKey: Guid(b3df241714c908c43848d10751620cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/boulder snow.png using Guid(b3df241714c908c43848d10751620cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616d218cf249c39df69e23f5902ab79a') in 0.151703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/pillar bottom.png
+  artifactKey: Guid(66ef6947c5cf4684cb89ebf3ff0af607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/pillar bottom.png using Guid(66ef6947c5cf4684cb89ebf3ff0af607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7adc0a22e899bc643700c9a4a04d8955') in 0.048026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point down snow.png
+  artifactKey: Guid(5ba70415e9d80374baacb2450ca006a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point down snow.png using Guid(5ba70415e9d80374baacb2450ca006a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b8e159a4f964bc1cb39621034e64ce') in 0.049978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point up gold.png
+  artifactKey: Guid(461c277ba84981c4097f3fb1523ad5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point up gold.png using Guid(461c277ba84981c4097f3fb1523ad5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d785d94b362c86afc8e686b4ce2db03') in 0.049585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/crate snow.png
+  artifactKey: Guid(af79ac8a365c7574ea6f77c82053ecfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/crate snow.png using Guid(af79ac8a365c7574ea6f77c82053ecfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90452094e7e11abe688228faa83e0d3') in 0.048873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill straight green.png
+  artifactKey: Guid(e281cd2e2189eb941b42267ef53834c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill straight green.png using Guid(e281cd2e2189eb941b42267ef53834c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca02be91709ff736dee2c85bc23310e') in 0.054356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/pillar top snow.png
+  artifactKey: Guid(19c08e4c14f15b64eaff059ffc2050e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/pillar top snow.png using Guid(19c08e4c14f15b64eaff059ffc2050e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540b1b05f69f4b518c71c11b762778ff') in 0.044940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/dirt block.png
+  artifactKey: Guid(fc98f48e419d5eb419233031760004f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/dirt block.png using Guid(fc98f48e419d5eb419233031760004f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b403806c703baa2da9beea8dae32a60') in 0.048150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/fence post.png
+  artifactKey: Guid(7aba0851a8cea314fb227c9bcd91d341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/fence post.png using Guid(7aba0851a8cea314fb227c9bcd91d341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4b848808c149d6ba78e4bde828f449') in 0.044773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves sphere gold.png
+  artifactKey: Guid(9ef9d9311d120dd4eb27e1887e3c0b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves sphere gold.png using Guid(9ef9d9311d120dd4eb27e1887e3c0b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096a84884daeb41fc6131e8d523ac51d') in 0.051622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/fence rail snow.png
+  artifactKey: Guid(1582d47cfe52cb949bc3ae07c8aa4291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/fence rail snow.png using Guid(1582d47cfe52cb949bc3ae07c8aa4291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57da21e1bdce454c54dc868ce67bdec6') in 0.047068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill corner inner green.png
+  artifactKey: Guid(d6b57daaf144a8c458c26ef8d3e53ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill corner inner green.png using Guid(d6b57daaf144a8c458c26ef8d3e53ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef87bf29f8d50934a56a28c085131a3') in 0.047658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/pillar bottom snow.png
+  artifactKey: Guid(ccddbed62e45b8c4fafcff9d4d31eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/pillar bottom snow.png using Guid(ccddbed62e45b8c4fafcff9d4d31eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ed12ac1082a1ad7845ac257f6b21ef') in 0.046026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point down green.png
+  artifactKey: Guid(3f15857cf6dee3f4eabc40bbd29a65a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point down green.png using Guid(3f15857cf6dee3f4eabc40bbd29a65a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cdfb7327ee26ebd2499563ba7a4540') in 0.048944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point up green.png
+  artifactKey: Guid(2d59faef01e644f47a40a56cdcdc6721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point up green.png using Guid(2d59faef01e644f47a40a56cdcdc6721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76362261b263e1475d40ef9bfc6c108') in 0.051680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill corner outer green.png
+  artifactKey: Guid(ec2a035ea74594f47bb0e5d991b679cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill corner outer green.png using Guid(ec2a035ea74594f47bb0e5d991b679cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efdfe46b5bb148ad1b9e10fd251e3c8') in 0.054326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point down gold.png
+  artifactKey: Guid(5fa313d0411bf8f43833ed86e87e8b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point down gold.png using Guid(5fa313d0411bf8f43833ed86e87e8b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670413dacff2108ae42db3a69011975a') in 0.053156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point up red.png
+  artifactKey: Guid(d3cd91ae4eb78c140b24104550b6afb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point up red.png using Guid(d3cd91ae4eb78c140b24104550b6afb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381255179bff918861460bde9d64470e') in 0.049438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/sign help.png
+  artifactKey: Guid(8ba50edf2d77afb41be5aa7c7ec821a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/sign help.png using Guid(8ba50edf2d77afb41be5aa7c7ec821a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ff33460e38f98c06705552de1f5422') in 0.050202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves sphere green.png
+  artifactKey: Guid(c0d9b47d2f5461c4cac6fe24844041dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves sphere green.png using Guid(c0d9b47d2f5461c4cac6fe24844041dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b015cd7944c4d3acb18d011db47ecb4') in 0.046462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/pillar center link.png
+  artifactKey: Guid(b0da0601d783e5742b4519a964e98e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/pillar center link.png using Guid(b0da0601d783e5742b4519a964e98e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60e941b423145394b03ba7168db8b21') in 0.044257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/crate.png
+  artifactKey: Guid(4d72941abc7f257499766e993d315ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/crate.png using Guid(4d72941abc7f257499766e993d315ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b4d53a77d63a11c7469e3b41d1b888') in 0.048928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point down red.png
+  artifactKey: Guid(bde4ef48567990944984017b3740550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point down red.png using Guid(bde4ef48567990944984017b3740550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2107ef2b50d2ae26b80d5fb15bd63f32') in 0.049886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves sphere snow.png
+  artifactKey: Guid(f8f05233ff7625445a08ac89488a10ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves sphere snow.png using Guid(f8f05233ff7625445a08ac89488a10ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd18bb9eff479641be6097664eadbd06') in 0.045073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill corner outer snow.png
+  artifactKey: Guid(984d244df81b3de4bbe9868688da2b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill corner outer snow.png using Guid(984d244df81b3de4bbe9868688da2b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fb05bdd174395c5997a99ec9386a8f') in 0.050856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/pillar center.png
+  artifactKey: Guid(67314a9cb0803724aac5090b7a1643df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/pillar center.png using Guid(67314a9cb0803724aac5090b7a1643df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997bdae310efc517600e6a279eb2213c') in 0.047399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/tree trunk oak.png
+  artifactKey: Guid(268097b890a35f949801ee2150d22521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/tree trunk oak.png using Guid(268097b890a35f949801ee2150d22521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46c4587109561a3a1564b61271a997e') in 0.048960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/boulder.png
+  artifactKey: Guid(ce9c3fac12b2e35449f4c5ae97aabee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/boulder.png using Guid(ce9c3fac12b2e35449f4c5ae97aabee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d36b14d9283219472ac8578a387608b') in 0.050839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/fence post snow.png
+  artifactKey: Guid(277e27749171f214cabcc9d21d6a2833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/fence post snow.png using Guid(277e27749171f214cabcc9d21d6a2833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6524c25c20d7797b212e2a1538758ad') in 0.042987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/water.png
+  artifactKey: Guid(141d2e0146948df428f720ac680b841e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/water.png using Guid(141d2e0146948df428f720ac680b841e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335bcfbdb650e8668213b8145944e014') in 0.046742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/tree trunk pine.png
+  artifactKey: Guid(91563d9e3b861464f8e7ac59ab107494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/tree trunk pine.png using Guid(91563d9e3b861464f8e7ac59ab107494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c5864619784b55eff94d63c31c41b4') in 0.053815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves sphere pink.png
+  artifactKey: Guid(6964d4fb65e54394088943362dab12f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves sphere pink.png using Guid(6964d4fb65e54394088943362dab12f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404f7e36e31d7688a8218800f216076e') in 0.047105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/temple steps snow.png
+  artifactKey: Guid(d5a99baace2e5cb4aa8514b44bf1b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/temple steps snow.png using Guid(d5a99baace2e5cb4aa8514b44bf1b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd62b99d2795b33d1d4cfa142105b040') in 0.051996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/dirt ramp snow.png
+  artifactKey: Guid(0f8ea2f8a4630c74b9bbd6e266fa5c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/dirt ramp snow.png using Guid(0f8ea2f8a4630c74b9bbd6e266fa5c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89e850ea577bc5033998febbf0afd7e') in 0.053835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/temple block center snow.png
+  artifactKey: Guid(486c738e3eb85dc4c88a714f33d22697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/temple block center snow.png using Guid(486c738e3eb85dc4c88a714f33d22697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6110cc1e5c7be1294070d62ca7b60b7') in 0.052716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/pillar snake.png
+  artifactKey: Guid(f79bcf2a367093e43bc03f7b3f88ad29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/pillar snake.png using Guid(f79bcf2a367093e43bc03f7b3f88ad29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb83bc103aedbd29e18195767b64fa9') in 0.047860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill straight fall.png
+  artifactKey: Guid(4ac66436d069f8f4fa9a6380cec98fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill straight fall.png using Guid(4ac66436d069f8f4fa9a6380cec98fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d75efb4100def79172471823ef1266') in 0.049809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/grass block snow.png
+  artifactKey: Guid(c18650c9f7dbc6946a04bb122a965afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/grass block snow.png using Guid(c18650c9f7dbc6946a04bb122a965afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caeae40e6d309dd590d99f92c6d078a5') in 0.052558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/dirt block center.png
+  artifactKey: Guid(32d07a062d2d4584ab2e41d227324a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/dirt block center.png using Guid(32d07a062d2d4584ab2e41d227324a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead4b3dac540920795ab7fb2a7685b96') in 0.046169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/dirt block snow.png
+  artifactKey: Guid(77feb19dd7a90e44c9cb7592c452c2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/dirt block snow.png using Guid(77feb19dd7a90e44c9cb7592c452c2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b50bba550c71ee90890950cc52a3e9d') in 0.044828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/grass block green.png
+  artifactKey: Guid(51c8b13f8c077f94f9808a2fa4c031da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/grass block green.png using Guid(51c8b13f8c077f94f9808a2fa4c031da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7797b98a45012cc413aaccdb30c60e') in 0.044598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/fence rail.png
+  artifactKey: Guid(b9eab6eb674cf6243b2b209d13f6edea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/fence rail.png using Guid(b9eab6eb674cf6243b2b209d13f6edea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727ba564b4a4d8e9f7f10925bb3dd581') in 0.047603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point down pink.png
+  artifactKey: Guid(6f10e5d18477e504ca974a177ea64eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point down pink.png using Guid(6f10e5d18477e504ca974a177ea64eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acd215e0f8e8045b956b84a4e1763b7') in 0.048620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves sphere red.png
+  artifactKey: Guid(8b5c3c6b5057f6147bb3c97e5a2cdf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves sphere red.png using Guid(8b5c3c6b5057f6147bb3c97e5a2cdf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ff0194ef0bd9a924262f73ca079e76') in 0.048256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point up snow.png
+  artifactKey: Guid(993da0773bda1da48bfb89c77033599e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point up snow.png using Guid(993da0773bda1da48bfb89c77033599e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd29ebcabdda2267fc3cdcb899993e39') in 0.052062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/pillar base snow.png
+  artifactKey: Guid(a5655fd3ba5601b4390aa9d34a9d1891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/pillar base snow.png using Guid(a5655fd3ba5601b4390aa9d34a9d1891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b72fc58443954718aa26bd024bc93e') in 0.047188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/sign blank.png
+  artifactKey: Guid(2c27740f80824aa409502ea8711593d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/sign blank.png using Guid(2c27740f80824aa409502ea8711593d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adc4167a958bf5dd8ce69ee75e30481') in 0.051001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/dirt ramp.png
+  artifactKey: Guid(52c684fcac41de249945ccb19d4485b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/dirt ramp.png using Guid(52c684fcac41de249945ccb19d4485b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffce3093977e44996613162a279a4db') in 0.054485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill corner inner fall.png
+  artifactKey: Guid(44090a7e49c335d438b180932fb029ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill corner inner fall.png using Guid(44090a7e49c335d438b180932fb029ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a931e69ba3fb0631e4326941d0140c') in 0.051453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/tree trunk birch.png
+  artifactKey: Guid(621761162a2378e408e677fa9bbc50c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/tree trunk birch.png using Guid(621761162a2378e408e677fa9bbc50c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bb4b341b6caaea7243c9f61765e465') in 0.049581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill corner inner snow.png
+  artifactKey: Guid(64b03737cde5b264ab084c8a2d55aa8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill corner inner snow.png using Guid(64b03737cde5b264ab084c8a2d55aa8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41183d5b230017af416a93a60dcfda18') in 0.047970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/pillar base.png
+  artifactKey: Guid(c46098ee476da9645be1d0bed0c54e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/pillar base.png using Guid(c46098ee476da9645be1d0bed0c54e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d75e0490da863e6b401213b16bfcd4') in 0.045892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/temple block center.png
+  artifactKey: Guid(675c698034320b04a9b2ed14af472cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/temple block center.png using Guid(675c698034320b04a9b2ed14af472cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fc4999ea94076f46625d3ff7217041') in 0.052706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/temple steps.png
+  artifactKey: Guid(d30df8698ce79d0458aa02793e35e305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/temple steps.png using Guid(d30df8698ce79d0458aa02793e35e305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdd357574930c262e0c72c08222f9c1') in 0.047442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/temple block snow.png
+  artifactKey: Guid(071565d9d1e6aa14583ded2e907233a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/temple block snow.png using Guid(071565d9d1e6aa14583ded2e907233a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bab7d9ca4fa6fd25e4f44e7f304f07') in 0.043986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill corner outer fall.png
+  artifactKey: Guid(bfc8bd211490dca4a8717088876b411a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill corner outer fall.png using Guid(bfc8bd211490dca4a8717088876b411a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f8a96cf0c4e9318d2699711e9fb261') in 0.049002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/pillar monkey.png
+  artifactKey: Guid(01132b31a6f1cd24b9a0910ac8a5b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/pillar monkey.png using Guid(01132b31a6f1cd24b9a0910ac8a5b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b178cc0a5c26cd45ce7fe1e7d9983e') in 0.050878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill straight snow.png
+  artifactKey: Guid(ea328ad53e1ac534f946a74e5498ec04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/grass hill straight snow.png using Guid(ea328ad53e1ac534f946a74e5498ec04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0190977d4c430346df957215f68296d2') in 0.048578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/temple block.png
+  artifactKey: Guid(316eaba8445d8384b8ceca09fab4571a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/temple block.png using Guid(316eaba8445d8384b8ceca09fab4571a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdac17d82dd55fb38f1effcfc9ceec3f') in 0.047658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point up pink.png
+  artifactKey: Guid(85ed088c970dac549b4f4d8b1cb6fd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/leaves point up pink.png using Guid(85ed088c970dac549b4f4d8b1cb6fd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9bf7a335001c5efe1cfdadc665aa2b') in 0.048259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000672 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/pillar top.png
+  artifactKey: Guid(0eee820abd5dd904cb2988a8d55b8328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/pillar top.png using Guid(0eee820abd5dd904cb2988a8d55b8328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43df74725e014bedbb317ce707261e6b') in 0.049477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/sign arrow.png
+  artifactKey: Guid(47a41939041c95746ab52005ef0ea591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/sign arrow.png using Guid(47a41939041c95746ab52005ef0ea591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94471fdb16d9536c3dca447d84c6805e') in 0.046889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Art/Modular Pixel Forest/Materials/Textures/grass block fall.png
+  artifactKey: Guid(a2502bc9872802e449b0f362eca61b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modular Pixel Forest/Materials/Textures/grass block fall.png using Guid(a2502bc9872802e449b0f362eca61b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b9219bb7f4cd6be72cf77d5b5ed291') in 0.053042 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.170521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 1.44 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.317 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2318ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1938ms)
+			LoadAssemblies (314ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (527ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (742ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (517ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 1.61 ms.
+Unloading 1555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2064.
+Total: 8.690130 ms (FindLiveObjects: 0.263306 ms CreateObjectMapping: 0.099534 ms MarkObjects: 8.204197 ms  DeleteObjects: 0.120691 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.215692 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 1.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2030ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1673ms)
+			LoadAssemblies (250ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (422ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (712ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (510ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 1.16 ms.
+Unloading 1555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2066.
+Total: 8.142514 ms (FindLiveObjects: 0.235381 ms CreateObjectMapping: 0.088034 ms MarkObjects: 7.696348 ms  DeleteObjects: 0.120597 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
