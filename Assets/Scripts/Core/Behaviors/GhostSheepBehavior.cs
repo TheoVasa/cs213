@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using UnityEngine;
 
 public class GhostSheepBehavior : AgentBehaviour
@@ -23,8 +23,16 @@ public class GhostSheepBehavior : AgentBehaviour
     public void Start(){
         //invoke randomly the switching of states 
         Invoke("switchState", Random.Range(0, maxSwitchTime));
-        SheepColor = agent.Color();
+
+        //
+
+        //SheepColor = agent.Color();
+        //SheepColor = 
         //creating the sounds 
+
+
+
+
         sheepSound = gameObject.AddComponent<AudioSource>();
         sheepSound.clip = sheepClip;
         ghostSound = gameObject.AddComponent<AudioSource>();
@@ -100,6 +108,16 @@ public class GhostSheepBehavior : AgentBehaviour
            transform.gameObject.tag = "ghost";
             //change led make noise
             agent.SetVisualEffect(0, GhostColor, 0);
+
+            //
+
+            //Change The PLAYERS feeling (enable back drivability):
+
+            // 1. Clear the previous sensibility
+            // 2. set the new sensibility
+
+            //
+
             ghostSound.Play();
 
         }
@@ -108,6 +126,16 @@ public class GhostSheepBehavior : AgentBehaviour
            transform.gameObject.tag = "sheep";
             //change led make noise
             agent.SetVisualEffect(0, SheepColor, 0);
+
+            //
+
+            //Change The PLAYERS feeling (move on stone feeling):
+
+            // 1. Clear the previous sensibility
+            // 2. set the new sensibility
+
+            //
+
             sheepSound.Play();
 
         }
