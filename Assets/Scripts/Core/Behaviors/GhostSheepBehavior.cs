@@ -8,31 +8,29 @@ public class GhostSheepBehavior : AgentBehaviour
     public float RunDistanceThreshold;
     public float ChaseDistanceAfterCollideThreshold;
     public int maxSwitchTime;
-    public Color GhostColor;
     public AudioClip sheepClip;
     public AudioClip ghostClip;
-    private Color SheepColor;
     private Vector3 m_movement;
     private Vector3 attractForce;
     private Vector3 repForce;
     private AudioSource sheepSound;
     private AudioSource ghostSound;
-    private bool hasCollided = false; 
+    private bool hasCollided = false;
+
+    //TODO ces attributs doivent pouvoir etre modifiés par les utilisateurs depuis le menu 
+    public Color GhostColor;
+    public Color SheepColor;
+
 
 
     public void Start(){
         //invoke randomly the switching of states 
         Invoke("switchState", Random.Range(0, maxSwitchTime));
 
-        //
+        //the color 
+        agent.SetVisualEffect(0, SheepColor, 0);
 
-        //SheepColor = agent.Color();
-        //SheepColor = 
         //creating the sounds 
-
-
-
-
         sheepSound = gameObject.AddComponent<AudioSource>();
         sheepSound.clip = sheepClip;
         ghostSound = gameObject.AddComponent<AudioSource>();
@@ -59,7 +57,7 @@ public class GhostSheepBehavior : AgentBehaviour
         return steering;
     }
 
-    //scal all the ennemies, change the attractive and repulsive force 
+    //scan all the ennemies, change the attractive and repulsive force 
     private void scanEnnemies()
     {
         GameObject[] gos;
@@ -108,16 +106,6 @@ public class GhostSheepBehavior : AgentBehaviour
            transform.gameObject.tag = "ghost";
             //change led make noise
             agent.SetVisualEffect(0, GhostColor, 0);
-
-            //
-
-            //Change The PLAYERS feeling (enable back drivability):
-
-            // 1. Clear the previous sensibility
-            // 2. set the new sensibility
-
-            //
-
             ghostSound.Play();
 
         }
@@ -126,16 +114,6 @@ public class GhostSheepBehavior : AgentBehaviour
            transform.gameObject.tag = "sheep";
             //change led make noise
             agent.SetVisualEffect(0, SheepColor, 0);
-
-            //
-
-            //Change The PLAYERS feeling (move on stone feeling):
-
-            // 1. Clear the previous sensibility
-            // 2. set the new sensibility
-
-            //
-
             sheepSound.Play();
 
         }
@@ -146,7 +124,7 @@ public class GhostSheepBehavior : AgentBehaviour
     {
         if(other.gameObject.tag == "dog" && tag == "ghost")
         {
-            other.gameObject.GetComponent<PointSystem>().DecreasePoints();
+            other.gameObject.GetComponent<PointSystem>().DecreasePoints(1);
             hasCollided = true; 
         }
     }

@@ -19,15 +19,15 @@ public class PointSystem : MonoBehaviour
         looseAudioSource= gameObject.AddComponent<AudioSource>();
         looseAudioSource.clip = looseAudioClip;
     }
-    public void IncreasePoints()
+    public void IncreasePoints(int nbr)
     {
         winAudioSource.Play();
-        ++points; 
+        points = points + nbr; 
     }
-    public void DecreasePoints()
+    public void DecreasePoints(int nbr)
     {
         looseAudioSource.Play();
-        --points; 
+        points = points - nbr; 
     }
     public int Points()
     {

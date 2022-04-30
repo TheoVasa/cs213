@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.107507624, g: 0.085196786, b: 0.113688864, a: 1}
+  m_IndirectSpecularColor: {r: 0.10752273, g: 0.08520471, b: 0.11368444, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1010,7 +1010,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1300460603662249420, guid: 6f5f6d7624c2ce5cc8896e584e30f1c5, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1300460603662249420, guid: 6f5f6d7624c2ce5cc8896e584e30f1c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1143,6 +1143,10 @@ PrefabInstance:
     - target: {fileID: 2916047611232586596, guid: 6f5f6d7624c2ce5cc8896e584e30f1c5, type: 3}
       propertyPath: m_LocalPosition.z
       value: -9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657785916395057768, guid: 6f5f6d7624c2ce5cc8896e584e30f1c5, type: 3}
+      propertyPath: isMoved
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3657785916395057768, guid: 6f5f6d7624c2ce5cc8896e584e30f1c5, type: 3}
       propertyPath: initialColor.b
@@ -1445,10 +1449,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 395444486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d07190bba2ba384ab93251a693acffa, type: 3}
+  m_Script: {fileID: 11500000, guid: 1339c2f40eae7a24cbcd8d8b99017cac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
+  DogColor: {r: 0, g: 0.12941177, b: 1, a: 0}
   inputKeyboard: 0
 --- !u!114 &395444493
 MonoBehaviour:
@@ -2719,10 +2724,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 983459430}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d07190bba2ba384ab93251a693acffa, type: 3}
+  m_Script: {fileID: 11500000, guid: 1339c2f40eae7a24cbcd8d8b99017cac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
+  DogColor: {r: 1, g: 0, b: 0.9294118, a: 0}
   inputKeyboard: 1
 --- !u!114 &983459437
 MonoBehaviour:
@@ -2862,6 +2868,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3577866819122973540, guid: 2cc1a8e1096b2874d8412b9f3378b1e4, type: 3}
   m_PrefabInstance: {fileID: 1064073909}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1075527956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1300460602924199587, guid: 6f5f6d7624c2ce5cc8896e584e30f1c5, type: 3}
+  m_PrefabInstance: {fileID: 395444484}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1075527957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075527956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c260f581007eda42be84cbdfffda1cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GemSpawnClip: {fileID: 8300000, guid: 12617a4cd881adb459752ddf36fd87c4, type: 3}
+  GemDespawnClip: {fileID: 8300000, guid: 2f5f6add99ab6814886910d4b118891a, type: 3}
+  gemPrefab: {fileID: 7333230122408027402, guid: 3275bf487395be14a956855e108d479c, type: 3}
+  GemTimeSpawn: 5
+  SizemapX: 20
+  SizemapZ: -8
 --- !u!1001 &1130991172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2945,9 +2974,10 @@ MonoBehaviour:
   RunDistanceThreshold: 18
   ChaseDistanceAfterCollideThreshold: 15
   maxSwitchTime: 30
-  GhostColor: {r: 1, g: 0.069811285, b: 0.10734658, a: 0}
   sheepClip: {fileID: 8300000, guid: 606621ca451e37dc7814bb28809e9de5, type: 3}
   ghostClip: {fileID: 8300000, guid: 38694c16ea2afe33da8620b6cad520af, type: 3}
+  GhostColor: {r: 1, g: 0.069811285, b: 0.10734658, a: 0}
+  SheepColor: {r: 0, g: 1, b: 0.1137255, a: 0}
 --- !u!1 &1204518151
 GameObject:
   m_ObjectHideFlags: 0
@@ -4188,7 +4218,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 57.837, y: 90, z: 90}
 --- !u!1 &1775194286
 GameObject:

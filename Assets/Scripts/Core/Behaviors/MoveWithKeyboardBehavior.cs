@@ -1,7 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ * 
+ * SCRIPT PLUS UTILISE CAR IMPLEMENTE DANS DOGBEHAVIOR
+ * 
+ * 
+ * 
 //Input Keys
 public enum InputKeyboard{
     arrows =0, 
@@ -13,6 +18,7 @@ public class MoveWithKeyboardBehavior : AgentBehaviour
 
     public override Steering GetSteering()
     {
+        Debug.Log("ciuciuciu");
         float vertical;
         float horizontal;
         if(inputKeyboard == InputKeyboard.arrows)
@@ -34,3 +40,4 @@ public class MoveWithKeyboardBehavior : AgentBehaviour
     }
 
 }
+**/

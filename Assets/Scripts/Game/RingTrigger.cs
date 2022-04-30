@@ -19,7 +19,7 @@ public class RingTrigger : MonoBehaviour
         if(other.transform.parent.gameObject.tag == "sheep")
         {
             GameObject dog = FindClosestEnemy();
-            dog.GetComponent<PointSystem>().IncreasePoints();
+            dog.GetComponent<PointSystem>().IncreasePoints(1);
         }
      }
 
