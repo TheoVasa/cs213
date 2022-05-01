@@ -26,13 +26,13 @@ public class GameOverWinner : MonoBehaviour
         score2 = dog2.GetComponent<PointSystem>().Points();
 
         if (score1 > score2){
-            gameOverText.color = Color.blue;
-            gameOverText.text = "Game Over ! \nPlayer BLUE won the game, press \"Start\".";            
+            gameOverText.color = Settings.colorP1;
+            gameOverText.text = "Game Over ! \nPlayer1 won the game, press \"Start\".";            
         } else if (score2 > score1){
-            gameOverText.color = new Color(0.8f, 0.5f, 0.8f, 1);
-            gameOverText.text = "Game Over ! \nPlayer PURPLE won the game, press \"Start\".";
+            gameOverText.color = Settings.colorP2;
+            gameOverText.text = "Game Over ! \nPlayer2 won the game, press \"Start\".";
         } else {
-            gameOverText.color = Color.white;
+            gameOverText.color = Color.black;
             gameOverText.text = "Game Over ! \nBoth player have the same amount of points. It's a draw, \n press \"Start\"";
         }
     }

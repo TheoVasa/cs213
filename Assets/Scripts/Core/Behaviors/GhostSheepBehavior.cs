@@ -17,7 +17,7 @@ public class GhostSheepBehavior : AgentBehaviour
     private AudioSource ghostSound;
     private bool hasCollided = false;
 
-    //TODO ces attributs doivent pouvoir etre modifiés par les utilisateurs depuis le menu 
+    //TODO ces attributs doivent pouvoir etre modifiï¿½s par les utilisateurs depuis le menu 
     public Color GhostColor;
     public Color SheepColor;
 
@@ -52,8 +52,10 @@ public class GhostSheepBehavior : AgentBehaviour
         
         //move the cellulo
         Steering steering = new Steering();
-        steering.linear = m_movement * agent.maxAccel;
-        steering.linear = this.transform.parent.TransformDirection(Vector3.ClampMagnitude(steering.linear, agent.maxAccel));
+        if (!Timer.pauseGame){
+            steering.linear = m_movement * agent.maxAccel;
+            steering.linear = this.transform.parent.TransformDirection(Vector3.ClampMagnitude(steering.linear, agent.maxAccel));
+        }
         return steering;
     }
 

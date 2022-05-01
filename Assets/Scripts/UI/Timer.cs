@@ -6,26 +6,33 @@ using UnityEngine.UI;
 */
 public class Timer : MonoBehaviour
 {
-    private float initTimerValue;
-    public float timeValue;
-    public Text timerText;
-    public Slider slider;
-    public float maxMinutes;
-    public GameObject gameOver;
-    public GameManager gameManager;
+    public GameObject timer;
+    public GameObject pauseButton;
+    public GameObject muteButton;
+    public GameObject startButton;
 
-    public bool pauseGame;
+    public float timeValue;
+    private Text timerText;
+    public Slider slider;
+    private float maxMinutes = 2;
+    public GameObject gameOver;
+
+    static public bool pauseGame;
     private bool gameStart;
+    static public bool hasInitOnLongTouch = false;
 
     public void initTimer(){
+        startButton .SetActive(false);
+        timer.SetActive(true);
+        muteButton.SetActive(true);
+        pauseButton.SetActive(true);
+
         pauseGame = false;
         gameStart = true;
-        initTimerValue = Time.time; 
         timeValue = maxMinutes*60;
+        Debug.Log("WSH2");
     }
-    public void Awake() {
-        initTimerValue = Time.time; 
-    }
+    public void Awake() {}
 
     // Start is called before the first frame update
     public void Start() {
@@ -35,28 +42,27 @@ public class Timer : MonoBehaviour
         timerText = GetComponent<Text>();
         timerText.text = string.Format("{0:00}:{1:00}", 0, 0);
         gameOver.SetActive(false);
-        maxMinutes = 2;
+        maxMinutes = Settings.timeValue;
         slider.maxValue = maxMinutes*60;
         slider.value = maxMinutes*60;
     }
 
     void Update(){
 
-        //Pause the game
-        if (pauseGame){
-            Time.timeScale = 0;
-        } else {
-            Time.timeScale = 1;
+        //Init on long touch
+        if (hasInitOnLongTouch == true && gameStart == false){
+            initTimer();
         }
 
         //Decrement time
-        if  (timeValue > 0){
+        if  (timeValue > 0 && !pauseGame){
             timeValue -= Time.deltaTime;
             slider.value = (maxMinutes*60) - timeValue;
         } else {
-            timeValue = 0;
-            if (gameStart){
+            if (timeValue < 0){
                 gameOver.SetActive(true);
+                muteButton.SetActive(false);
+                pauseButton.SetActive(false);
             }
             pauseGame = true;
         }
@@ -74,5 +80,13 @@ public class Timer : MonoBehaviour
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
 
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
+
+    public void Pause(){
+        pauseGame = true;
+    }
+
+    public void Resume(){
+        pauseGame = false;
     }
 }

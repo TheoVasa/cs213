@@ -10,10 +10,10 @@ public enum InputKeyboard
 
 public class DogBehavior : AgentBehaviour 
 {
-    //TODO ces attributs doivent pouvoir etre modifiés par les utilisateurs depuis le menu 
+    //TODO ces attributs doivent pouvoir etre modifiï¿½s par les utilisateurs depuis le menu 
     public Color DogColor;
+    public int DogIndex;
     public InputKeyboard inputKeyboard;
-
     private bool WantToStart;
     private bool WasInSheepMode;
     private bool HasGem;
@@ -24,6 +24,15 @@ public class DogBehavior : AgentBehaviour
         WantToStart = false; 
         WasInSheepMode = false;
         HasGem = false;
+
+        //Set dog color depending on index (P1 or P2 ?)
+        if (DogIndex == 1){
+            DogColor = Settings.colorP1;
+            inputKeyboard = Settings.inputKeyP1;
+        } else {
+            DogColor = Settings.colorP2;
+            inputKeyboard = Settings.inputKeyP2;
+        }
 
         //the color 
         agent.SetVisualEffect(0, DogColor, 0);
@@ -36,8 +45,7 @@ public class DogBehavior : AgentBehaviour
     {
         if(PlayersWantToStart())
         {
-            //TODO
-            //gerer le debut de la game 
+            Timer.hasInitOnLongTouch = true;
         }
 
         //handling the haptic feedbacks (logic working fine)
@@ -55,13 +63,6 @@ public class DogBehavior : AgentBehaviour
             WasInSheepMode = false;
         }
 
-        if (HasGem)
-        {
-            /** 
-             * TODO
-            pourquoi pas rajouter des effets visuels 
-            **/
-        }
 
         //handle the movement with the keyboard (working fine)
         float vertical;
@@ -78,10 +79,11 @@ public class DogBehavior : AgentBehaviour
         }
 
         Steering steering = new Steering();
-        //moving the cellulo 
-        steering.linear = new Vector3(horizontal, 0, vertical) * agent.maxAccel;
-        steering.linear = this.transform.parent.TransformDirection(Vector3.ClampMagnitude(steering.
-        linear, agent.maxAccel));
+        //moving the cellulo
+        if (!Timer.pauseGame){
+            steering.linear = new Vector3(horizontal, 0, vertical) * agent.maxAccel;
+            steering.linear = this.transform.parent.TransformDirection(Vector3.ClampMagnitude(steering.linear, agent.maxAccel));
+        }
         return steering;
     }
 
@@ -137,7 +139,7 @@ public class DogBehavior : AgentBehaviour
         {
             str = str && go.GetComponent<DogBehavior>().WantToStartTheGame();
         }
-        return str; 
+        return str;
     }
 
 
